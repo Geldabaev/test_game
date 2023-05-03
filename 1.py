@@ -29,7 +29,7 @@ class GameSprite(sprite.Sprite):
   # метод, отрисовывающий героя на окне
     def reset(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
-        print("hello")
+
 # класс главного игрока
 class Player(GameSprite):
     # метод для управления спрайтом стрелками клавиатуры
